@@ -1,0 +1,69 @@
+Enunciado de la Práctica: Gestión de Presupuesto Mensual
+
+Objetivo:
+El objetivo de esta práctica es utilizar una hoja de cálculo para gestionar un presupuesto mensual personal o familiar, aplicando fórmulas básicas, y funciones de diferentes categorías.
+
+Contexto:
+Imagina que tienes un presupuesto mensual y quieres organizar tus ingresos y gastos para tener un control detallado de tus finanzas. 
+Vas a crear una hoja de cálculo que incluya ingresos, gastos, un balance final y análisis automatizado. Además, realizarás una simulación de un escenario de ahorro para mejorar la planificación.
+
+Instrucciones:
+
+1. Crea un nuevo archivo de hoja de cálculo y ponle el nombre: Presupuesto_Mensual_NombreApellido. (Nombre y Apellido es el tuyo).
+
+2. Configura la estructura del presupuesto en una hoja llamada Presupuesto:
+  2.1	 Columna A: Categoría (Ejemplo: "Salario", "Alquiler", "Comida", "Ocio", etc.)
+  2.2	 Columna B: Tipo (Ingreso o Gasto)
+  2.3	 Columna C: Cantidad (€)
+  2.4	Columna D: Estado (Esta columna calculará si un gasto es "Alto", "Moderado" o "Bajo").
+  2.5	Columna E: Etiqueta Ahorro (Usará la función adecuada para mostrar si se puede ahorrar en una categoría).
+
+3. Introduce datos básicos:
+  3.1	  Añade al menos 5 categorías de ingresos y 10 categorías de gastos.
+  3.2	  Completa las columnas con datos ficticios pero razonables.
+
+4. Añade lógica con funciones:
+  4.1	En la columna Estado (D), usa la función lógica adecuada para clasificar los gastos:
+     - Si el gasto es mayor o igual a 500€, ponga "Alto".
+     - Si el gasto está entre 100€ y 499€, ponga "Moderado".
+     - Si el gasto es menor a 100€, ponga "Bajo".
+  4.2	  En la columna Etiqueta Ahorro (E), usa la función adecuada para indicar si es posible ahorrar:
+     - Si el gasto es "Ocio" o "Comida" y mayor de 200€, muestra "Revisar gasto".
+     - En caso contrario, muestra "Controlado".
+
+5. Crea un resumen:
+  5.1	En la parte inferior de la tabla:
+    5.1.1	Calcula el Total de ingresos y Total de gastos usando funciones.
+    5.1.2	Calcula el Balance final (Ingresos - Gastos).
+  5.2	Añade un mensaje automático utilizando la función más adecuada:
+    5.2.1	Si el balance final es mayor o igual a 0: "¡Bien hecho, estás ahorrando!".
+    5.2.2	Si el balance final es negativo: "Cuidado, estás gastando más de lo que ingresas".
+  5.3	   Usa la función más adecuada para: 
+    5.3.1	Contar cuántos gastos tienen el estado "Alto".
+  5.3.2	Contar cuántas categorías requieren "Revisar gasto".
+
+6. Simulación de escenarios.
+6.1	Añade una hoja llamada Escenarios.
+6.1.1	Define un escenario en el que aumenten tus ingresos en un 10% y tus gastos en un 5%. Usa fórmulas para recalcular el balance y compara con el escenario original.
+
+7. Búsqueda y automatización:
+7.1	En la hoja Presupuesto, crea una nueva columna llamada Planificación. Usa la función más adecuada para asignar automáticamente un porcentaje de ahorro sugerido según la categoría. 
+  Crea previamente una tabla auxiliar con categorías y porcentajes recomendados:
+    - "Salario": 20%
+    - "Ocio": 10%
+    - "Alquiler": 0%
+    - "Comida": 5%
+
+8. Gráficos y visualización:
+8.1	Crea un gráfico circular para representar los porcentajes de tus gastos según la categoría.
+8.2	Crea un gráfico de barras para comparar ingresos y gastos totales.
+
+9. Añade otra hoja de cálculo llamada Análisis y responde (en texto o con fórmulas) a las siguientes preguntas:
+9.1 Qué porcentaje de tus ingresos se destina a gastos esenciales (como "Alquiler" y "Comida")?
+9.2 ¿Cuánto podrías ahorrar aplicando los porcentajes sugeridos en la columna Planificación?
+9.3 ¿Cuántos gastos se consideran "Altos" y qué porcentaje representan sobre el total de gastos?
+
+10. Guarda y entrega:
+10.1 Exporta el archivo como PDF con el nombre Presupuesto_NombreApellido.pdf.
+10.2 	Entrega el archivo original y el PDF a través de Teams.
+

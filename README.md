@@ -1,1 +1,1 @@
-Ejercicios de Hojas de Cálculo para practicar. Nivel 1º Bachillerato
+Ejercicios de TIC para practicar. Nivel 1º Bachillerato
